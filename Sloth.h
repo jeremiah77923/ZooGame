@@ -8,7 +8,10 @@
 
 
 class Sloth: public animal{
+public:
+    Sloth(int price, int cost, int age, int babiesNum, int foodCost, int revenue) : animal(price, cost, age, babiesNum, foodCost, revenue) {
 
+    }
 };
 
 
