@@ -64,6 +64,24 @@ build CMakeFiles/Animals.dir/animal1.cpp.o: CXX_COMPILER__Animals_Debug /Users/j
   OBJECT_DIR = CMakeFiles/Animals.dir
   OBJECT_FILE_DIR = CMakeFiles/Animals.dir
 
+build CMakeFiles/Animals.dir/SeaOtter.cpp.o: CXX_COMPILER__Animals_Debug /Users/jeremiahhawthorne/CLionProjects/Animals/SeaOtter.cpp || cmake_object_order_depends_target_Animals
+  DEP_FILE = CMakeFiles/Animals.dir/SeaOtter.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Animals.dir
+  OBJECT_FILE_DIR = CMakeFiles/Animals.dir
+
+build CMakeFiles/Animals.dir/Sloth.cpp.o: CXX_COMPILER__Animals_Debug /Users/jeremiahhawthorne/CLionProjects/Animals/Sloth.cpp || cmake_object_order_depends_target_Animals
+  DEP_FILE = CMakeFiles/Animals.dir/Sloth.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Animals.dir
+  OBJECT_FILE_DIR = CMakeFiles/Animals.dir
+
+build CMakeFiles/Animals.dir/Monkey.cpp.o: CXX_COMPILER__Animals_Debug /Users/jeremiahhawthorne/CLionProjects/Animals/Monkey.cpp || cmake_object_order_depends_target_Animals
+  DEP_FILE = CMakeFiles/Animals.dir/Monkey.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Animals.dir
+  OBJECT_FILE_DIR = CMakeFiles/Animals.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Animals
@@ -72,7 +90,7 @@ build CMakeFiles/Animals.dir/animal1.cpp.o: CXX_COMPILER__Animals_Debug /Users/j
 #############################################
 # Link the executable Animals
 
-build Animals: CXX_EXECUTABLE_LINKER__Animals_Debug CMakeFiles/Animals.dir/main.cpp.o CMakeFiles/Animals.dir/animal.cpp.o CMakeFiles/Animals.dir/animal1.cpp.o
+build Animals: CXX_EXECUTABLE_LINKER__Animals_Debug CMakeFiles/Animals.dir/main.cpp.o CMakeFiles/Animals.dir/animal.cpp.o CMakeFiles/Animals.dir/animal1.cpp.o CMakeFiles/Animals.dir/SeaOtter.cpp.o CMakeFiles/Animals.dir/Sloth.cpp.o CMakeFiles/Animals.dir/Monkey.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/Animals.dir
   POST_BUILD = :

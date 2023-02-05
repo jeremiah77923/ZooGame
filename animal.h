@@ -55,8 +55,23 @@ public:
         this -> foodCost = foodCost;
         this -> revenue = revenue;
     }
-    // like this. in java this -> points to the instance variable when a local
-    // and instance var have the same  name.
+
+    // getters and setters:
+    virtual int getCost() = 0;
+    virtual void setCost() = 0;
+    virtual int getPrice() = 0;
+    virtual void setPrice() = 0;
+    virtual int getAge() = 0;
+    virtual void setAge() = 0;
+    virtual int getBabiesNum() = 0;
+    virtual void setBabiesNum() = 0;
+    virtual int getfoodCost() = 0;
+    virtual void setfoodCost() = 0;
+    virtual int getRevenue() = 0;
+    //
+
+
+
 
 
 };
