@@ -68,7 +68,12 @@ public:
     virtual int getfoodCost() = 0;
     virtual void setfoodCost() = 0;
     virtual int getRevenue() = 0;
-    //
+    // other methods each slub class needs to implement:
+    virtual void eat() = 0;
+    virtual void sleep() = 0;
+
+
+
 
 
 
